@@ -1346,3 +1346,21 @@ body::before {
     padding-left: 0.85rem;
   }
 }
+
+
+/* Headshot refinement: crop the uploaded image from the center without distortion and remove the old ring overlay. */
+.headshot-placeholder img {
+  height: 112%;
+  left: 50%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center center;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1.08);
+  transform-origin: center;
+  width: 112%;
+}
+
+.portrait-ring {
+  display: none;
+}
