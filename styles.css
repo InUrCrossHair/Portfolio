@@ -1206,3 +1206,143 @@ body::before {
     display: none;
   }
 }
+
+/* Requested content/layout updates and asset-preview support. */
+.hero-content {
+  padding-left: clamp(0.75rem, 2vw, 1.5rem);
+}
+
+.headshot-placeholder img {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.headshot-placeholder img.is-missing {
+  display: none;
+}
+
+.project-visual {
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  width: 100%;
+}
+
+.project-visual img {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.project-visual img.is-missing {
+  display: none;
+}
+
+.project-visual span {
+  position: relative;
+  z-index: 2;
+}
+
+.project-visual:focus-visible {
+  outline: 3px solid rgba(240, 196, 106, 0.9);
+  outline-offset: -3px;
+}
+
+.project-card:has(.project-visual:focus-visible) {
+  border-color: rgba(211, 169, 79, 0.52);
+}
+
+.resume-panel {
+  text-align: center;
+}
+
+.resume-panel p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume-panel .btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-layout {
+  grid-template-columns: minmax(280px, 640px);
+  justify-content: center;
+}
+
+.contact-card {
+  width: 100%;
+}
+
+.lightbox {
+  align-items: center;
+  background: rgba(5, 6, 10, 0.88);
+  display: none;
+  inset: 0;
+  justify-content: center;
+  padding: 1.2rem;
+  position: fixed;
+  z-index: 1000;
+}
+
+.lightbox.is-open {
+  display: flex;
+}
+
+.lightbox figure {
+  margin: 0;
+  max-width: min(1100px, 94vw);
+  width: 100%;
+}
+
+.lightbox img {
+  background: var(--bg-card-solid);
+  border: 1px solid rgba(211, 169, 79, 0.34);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  max-height: 82vh;
+  object-fit: contain;
+  width: 100%;
+}
+
+.lightbox figcaption {
+  color: var(--amber);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 800;
+  margin-top: 0.85rem;
+  text-align: center;
+}
+
+.lightbox-close {
+  align-items: center;
+  background: rgba(159, 29, 45, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 2rem;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  position: fixed;
+  right: 1.2rem;
+  top: 1.2rem;
+  width: 48px;
+}
+
+@media (max-width: 760px) {
+  .hero-content {
+    padding-left: 0.85rem;
+  }
+}
