@@ -1,10 +1,295 @@
 <!DOCTYPE html>
 <html>
+<html lang="en">
 <head>
   <title>Cody Altman Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cody Altman portfolio for business development, website design, digital media, marketing, outreach, and creative technology.">
+  <title>Cody Altman | Business Development • Website Design • Digital Media</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Cody Altman</h1>
   <p>Business development, website design, marketing, and media production.</p>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Primary navigation">
+      <!-- Update this brand text if you want to use initials, a logo, or a different name format. -->
+      <a class="brand" href="#home" aria-label="Cody Altman home">
+        <span class="brand-mark">CA</span>
+        <span>Cody Altman</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-circuit" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="hero-glyphs" aria-hidden="true">{ } &nbsp; // &nbsp; &lt;/&gt; &nbsp; 01</div>
+      <div class="orb orb-red" aria-hidden="true"></div>
+      <div class="orb orb-gold" aria-hidden="true"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Business Development • Website Design • Digital Media</p>
+        <!-- Update the hero name/headline here. -->
+        <h1 id="hero-title">Cody Altman</h1>
+        <h2>Creative Strategy. Practical Tools. Community Impact.</h2>
+        <p class="hero-copy">
+          I combine business development, website design, marketing, media production, and creative technology to help organizations communicate clearly, build stronger systems, and turn ideas into practical results.
+        </p>
+        <div class="hero-actions" aria-label="Primary calls to action">
+          <a class="btn btn-primary" href="#projects">View My Work</a>
+          <!-- Update this link when your resume PDF is added to assets/Cody-Altman-Resume.pdf. -->
+          <a class="btn btn-secondary" href="assets/Cody-Altman-Resume.pdf" download>Download Resume</a>
+        </div>
+        <div class="hero-proof" aria-label="Portfolio focus areas">
+          <span>Outreach</span>
+          <span>Web Systems</span>
+          <span>Media Strategy</span>
+        </div>
+      </div>
+
+      <aside class="profile-card reveal" aria-label="Cody Altman profile highlight">
+        <div class="profile-frame">
+          <!-- Replace the placeholder below with your headshot image when available.
+               Example: <img src="assets/cody-altman-headshot.jpg" alt="Professional headshot of Cody Altman"> -->
+          <div class="headshot-placeholder" role="img" aria-label="Professional headshot placeholder for Cody Altman">
+            <span class="portrait-initials">CA</span>
+            <span class="portrait-ring"></span>
+          </div>
+        </div>
+        <div class="profile-meta">
+          <p class="code-chip">{ strategist + digital creative }</p>
+          <h3>Professional, practical, and polished.</h3>
+          <p>Focused on clear communication, useful systems, and creative execution for business and community impact.</p>
+          <div class="profile-status" aria-label="Professional strengths">
+            <span>Business</span>
+            <span>Design</span>
+            <span>Media</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="content-section" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About</p>
+        <h2 id="about-title">A practical creative partner for modern communication.</h2>
+      </div>
+      <div class="about-layout reveal">
+        <p>
+          <!-- Update this about copy to match your exact background, roles, and accomplishments. -->
+          I am a business development and creative technology professional with experience in website design, marketing content, digital media, outreach, training, and project coordination. I enjoy building clear systems, useful tools, and polished materials that help people understand what is possible and take the next step.
+        </p>
+        <div class="about-stats" aria-label="Professional focus highlights">
+          <div>
+            <strong>01</strong>
+            <span>Clear strategy</span>
+          </div>
+          <div>
+            <strong>02</strong>
+            <span>Polished content</span>
+          </div>
+          <div>
+            <strong>03</strong>
+            <span>Useful systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section alt-section" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h2 id="skills-title">Business, creative, and technical capabilities.</h2>
+      </div>
+      <div class="skill-grid">
+        <!-- Edit, remove, or reorder these skill cards as your experience evolves. -->
+        <article class="skill-card reveal"><span>◆</span><h3>Business Development</h3></article>
+        <article class="skill-card reveal"><span>&lt;/&gt;</span><h3>Website Design</h3></article>
+        <article class="skill-card reveal"><span>◈</span><h3>Digital Marketing</h3></article>
+        <article class="skill-card reveal"><span>▣</span><h3>Media Production</h3></article>
+        <article class="skill-card reveal"><span>◎</span><h3>Outreach &amp; Training</h3></article>
+        <article class="skill-card reveal"><span>{ }</span><h3>Content Strategy</h3></article>
+        <article class="skill-card reveal"><span>AI</span><h3>AI &amp; Workflow Tools</h3></article>
+        <article class="skill-card reveal"><span>▲</span><h3>Event Promotion</h3></article>
+        <article class="skill-card reveal"><span>✦</span><h3>Branding &amp; Communication</h3></article>
+        <article class="skill-card reveal"><span>⚙</span><h3>Technical Problem Solving</h3></article>
+      </div>
+    </section>
+
+    <section class="content-section" id="services" aria-labelledby="services-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Services / Focus Areas</p>
+        <h2 id="services-title">Ways I can help move an idea forward.</h2>
+      </div>
+      <div class="card-grid">
+        <!-- Update these service cards to reflect paid services, job focus areas, or specialties. -->
+        <article class="feature-card reveal">
+          <h3>Website Design &amp; Structure</h3>
+          <p>Clean page layouts, content organization, landing pages, and practical site improvements that support clear user action.</p>
+        </article>
+        <article class="feature-card reveal">
+          <h3>Marketing &amp; Social Media Content</h3>
+          <p>Campaign concepts, post copy, visual direction, and message planning for consistent digital communication.</p>
+        </article>
+        <article class="feature-card reveal">
+          <h3>Business Development Support</h3>
+          <p>Materials, outreach structure, relationship-building assets, and practical tools for growth and partnership conversations.</p>
+        </article>
+        <article class="feature-card reveal">
+          <h3>Digital Media &amp; Video Concepts</h3>
+          <p>Story ideas, production planning, video outlines, and creative direction for polished media projects.</p>
+        </article>
+        <article class="feature-card reveal">
+          <h3>Training Materials &amp; Presentations</h3>
+          <p>Readable guides, slide structure, process documentation, and resources that make complex ideas easier to understand.</p>
+        </article>
+        <article class="feature-card reveal">
+          <h3>Workflow, Automation &amp; AI Tool Exploration</h3>
+          <p>Lightweight workflow ideas, tool research, and responsible AI-assisted processes that save time and improve clarity.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section alt-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2 id="projects-title">Editable gallery for selected work.</h2>
+        <p class="section-intro">Replace these sample cards with real screenshots, links, outcomes, and descriptions as your portfolio grows.</p>
+      </div>
+      <div class="project-grid">
+        <!-- Project card template: update title, category, description, image/screenshot, and link. -->
+        <article class="project-card reveal">
+          <div class="project-visual"><span>Campaign</span></div>
+          <div class="project-body">
+            <span class="tag">Marketing</span>
+            <h3>Small Business Marketing Campaigns</h3>
+            <p>Messaging, promotional structure, and content ideas for small business visibility and customer engagement.</p>
+            <a href="#contact" aria-label="Request details about Small Business Marketing Campaigns">View Details</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><span>Web</span></div>
+          <div class="project-body">
+            <span class="tag">Website Design</span>
+            <h3>Website Design Concepts</h3>
+            <p>Responsive page concepts focused on clear navigation, professional presentation, and conversion-ready structure.</p>
+            <a href="#contact" aria-label="Request details about Website Design Concepts">View Details</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><span>BD</span></div>
+          <div class="project-body">
+            <span class="tag">Business Development</span>
+            <h3>Business Development Materials</h3>
+            <p>Outreach assets, one-page summaries, and presentation materials designed to support partnership conversations.</p>
+            <a href="#contact" aria-label="Request details about Business Development Materials">View Details</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><span>Event</span></div>
+          <div class="project-body">
+            <span class="tag">Promotion</span>
+            <h3>Event Promotion Graphics</h3>
+            <p>Visual direction and promotional layouts for events, announcements, and community-facing initiatives.</p>
+            <a href="#contact" aria-label="Request details about Event Promotion Graphics">View Details</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><span>Story</span></div>
+          <div class="project-body">
+            <span class="tag">Content Strategy</span>
+            <h3>Newsletter / Success Story Layouts</h3>
+            <p>Readable story formats and newsletter structures that highlight outcomes, people, and practical next steps.</p>
+            <a href="#contact" aria-label="Request details about Newsletter and Success Story Layouts">View Details</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><span>AI</span></div>
+          <div class="project-body">
+            <span class="tag">Workflow Tools</span>
+            <h3>AI &amp; Workflow Experiments</h3>
+            <p>Exploration of AI-assisted planning, content drafts, repeatable workflows, and practical productivity systems.</p>
+            <a href="#contact" aria-label="Request details about AI and Workflow Experiments">View Details</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="resume-cta" id="resume" aria-labelledby="resume-title">
+      <div class="resume-panel reveal">
+        <p class="eyebrow">Resume</p>
+        <h2 id="resume-title">Want the full professional overview?</h2>
+        <p>Download my resume or reach out directly for the latest version, project samples, and availability.</p>
+        <!-- Place your actual resume at assets/Cody-Altman-Resume.pdf or update this href to your resume URL. -->
+        <a class="btn btn-primary" href="assets/Cody-Altman-Resume.pdf" download>Download Resume</a>
+      </div>
+    </section>
+
+    <section class="content-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Let’s connect about work, projects, or opportunities.</h2>
+      </div>
+      <div class="contact-layout reveal">
+        <div class="contact-card">
+          <!-- Update these contact links with your real email, LinkedIn, GitHub, and optional phone. -->
+          <a href="mailto:your.email@example.com"><span>Email</span>your.email@example.com</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LinkedIn</span>Update LinkedIn URL</a>
+          <a href="https://github.com/inurcrosshair" target="_blank" rel="noreferrer"><span>GitHub</span>github.com/inurcrosshair</a>
+        </div>
+        <div class="form-mockup" aria-label="Contact form mockup">
+          <!-- GitHub Pages does not include a backend. Connect a third-party form service like Formspree, Netlify Forms, or Google Forms if you want this to submit messages. -->
+          <p class="mock-label">Form preview</p>
+          <div>Name</div>
+          <div>Email</div>
+          <div>Message</div>
+          <a class="btn btn-secondary" href="mailto:your.email@example.com">Send Email Instead</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Cody Altman</strong>
+      <p>Business Development • Website Design • Digital Media</p>
+    </div>
+    <div class="footer-links">
+      <a href="#top">Back to top</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="copyright">© <span id="copyright-year"></span> Cody Altman. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
