@@ -62,8 +62,8 @@
         </p>
         <div class="hero-actions" aria-label="Primary calls to action">
           <a class="btn btn-primary" href="#projects">View My Work</a>
-          <!-- Update this link when your resume PDF is added to assets/Cody-Altman-Resume.pdf. -->
-          <a class="btn btn-secondary" href="assets/Cody-Altman-Resume.pdf" download>Download Resume</a>
+          <!-- Upload your resume as assets/resume.pdf or update this href to match your file name. -->
+          <a class="btn btn-secondary" href="assets/resume.pdf" download>Download Resume</a>
         </div>
         <div class="hero-proof" aria-label="Portfolio focus areas">
           <span>Outreach</span>
@@ -74,15 +74,15 @@
 
       <aside class="profile-card reveal" aria-label="Cody Altman profile highlight">
         <div class="profile-frame">
-          <!-- Replace the placeholder below with your headshot image when available.
-               Example: <img src="assets/cody-altman-headshot.jpg" alt="Professional headshot of Cody Altman"> -->
-          <div class="headshot-placeholder" role="img" aria-label="Professional headshot placeholder for Cody Altman">
-            <span class="portrait-initials">CA</span>
-            <span class="portrait-ring"></span>
+          <!-- Upload your profile picture to assets/headshot.png. If you use a different file name, update the src below. -->
+          <div class="headshot-placeholder">
+            <img src="assets/headshot.png" alt="Professional headshot of Cody Altman">
+            <span class="portrait-initials" aria-hidden="true">CA</span>
+            <span class="portrait-ring" aria-hidden="true"></span>
           </div>
         </div>
         <div class="profile-meta">
-          <p class="code-chip">{ strategist + digital creative }</p>
+          <p class="code-chip">{ creative problem solving + technical skills }</p>
           <h3>Professional, practical, and polished.</h3>
           <p>Focused on clear communication, useful systems, and creative execution for business and community impact.</p>
           <div class="profile-status" aria-label="Professional strengths">
@@ -178,63 +178,80 @@
     <section class="content-section alt-section" id="projects" aria-labelledby="projects-title">
       <div class="section-heading reveal">
         <p class="eyebrow">Projects</p>
-        <h2 id="projects-title">Editable gallery for selected work.</h2>
-        <p class="section-intro">Replace these sample cards with real screenshots, links, outcomes, and descriptions as your portfolio grows.</p>
+        <h2 id="projects-title">Selected Work</h2>
       </div>
       <div class="project-grid">
         <!-- Project card template: update title, category, description, image/screenshot, and link. -->
         <article class="project-card reveal">
-          <div class="project-visual"><span>Campaign</span></div>
+          <button class="project-visual" type="button" data-full-image="assets/projects/small-business-marketing.png" data-title="Small Business Marketing Campaigns">
+            <!-- Upload this project image to assets/projects/small-business-marketing.png, or update both src and data-full-image. -->
+            <img src="assets/projects/small-business-marketing.png" alt="Preview image for Small Business Marketing Campaigns" loading="lazy">
+            <span>Campaign</span>
+          </button>
           <div class="project-body">
             <span class="tag">Marketing</span>
             <h3>Small Business Marketing Campaigns</h3>
             <p>Messaging, promotional structure, and content ideas for small business visibility and customer engagement.</p>
-            <a href="#contact" aria-label="Request details about Small Business Marketing Campaigns">View Details</a>
           </div>
         </article>
         <article class="project-card reveal">
-          <div class="project-visual"><span>Web</span></div>
+          <button class="project-visual" type="button" data-full-image="assets/projects/website-design-concepts.png" data-title="Website Design Concepts">
+            <!-- Upload this project image to assets/projects/website-design-concepts.png, or update both src and data-full-image. -->
+            <img src="assets/projects/website-design-concepts.png" alt="Preview image for Website Design Concepts" loading="lazy">
+            <span>Web</span>
+          </button>
           <div class="project-body">
             <span class="tag">Website Design</span>
             <h3>Website Design Concepts</h3>
             <p>Responsive page concepts focused on clear navigation, professional presentation, and conversion-ready structure.</p>
-            <a href="#contact" aria-label="Request details about Website Design Concepts">View Details</a>
           </div>
         </article>
         <article class="project-card reveal">
-          <div class="project-visual"><span>BD</span></div>
+          <button class="project-visual" type="button" data-full-image="assets/projects/business-development-materials.png" data-title="Business Development Materials">
+            <!-- Upload this project image to assets/projects/business-development-materials.png, or update both src and data-full-image. -->
+            <img src="assets/projects/business-development-materials.png" alt="Preview image for Business Development Materials" loading="lazy">
+            <span>BD</span>
+          </button>
           <div class="project-body">
             <span class="tag">Business Development</span>
             <h3>Business Development Materials</h3>
             <p>Outreach assets, one-page summaries, and presentation materials designed to support partnership conversations.</p>
-            <a href="#contact" aria-label="Request details about Business Development Materials">View Details</a>
           </div>
         </article>
         <article class="project-card reveal">
-          <div class="project-visual"><span>Event</span></div>
+          <button class="project-visual" type="button" data-full-image="assets/projects/event-promotion-graphics.png" data-title="Event Promotion Graphics">
+            <!-- Upload this project image to assets/projects/event-promotion-graphics.png, or update both src and data-full-image. -->
+            <img src="assets/projects/event-promotion-graphics.png" alt="Preview image for Event Promotion Graphics" loading="lazy">
+            <span>Event</span>
+          </button>
           <div class="project-body">
             <span class="tag">Promotion</span>
             <h3>Event Promotion Graphics</h3>
             <p>Visual direction and promotional layouts for events, announcements, and community-facing initiatives.</p>
-            <a href="#contact" aria-label="Request details about Event Promotion Graphics">View Details</a>
           </div>
         </article>
         <article class="project-card reveal">
-          <div class="project-visual"><span>Story</span></div>
+          <button class="project-visual" type="button" data-full-image="assets/projects/newsletter-success-story-layouts.png" data-title="Newsletter and Success Story Layouts">
+            <!-- Upload this project image to assets/projects/newsletter-success-story-layouts.png, or update both src and data-full-image. -->
+            <img src="assets/projects/newsletter-success-story-layouts.png" alt="Preview image for Newsletter and Success Story Layouts" loading="lazy">
+            <span>Story</span>
+          </button>
           <div class="project-body">
             <span class="tag">Content Strategy</span>
             <h3>Newsletter / Success Story Layouts</h3>
             <p>Readable story formats and newsletter structures that highlight outcomes, people, and practical next steps.</p>
-            <a href="#contact" aria-label="Request details about Newsletter and Success Story Layouts">View Details</a>
           </div>
         </article>
         <article class="project-card reveal">
-          <div class="project-visual"><span>AI</span></div>
+          <button class="project-visual" type="button" data-full-image="assets/projects/ai-workflow-experiments.png" data-title="AI and Workflow Experiments">
+            <!-- Upload this project image to assets/projects/ai-workflow-experiments.png, or update both src and data-full-image. -->
+            <img src="assets/projects/ai-workflow-experiments.png" alt="Preview image for AI and Workflow Experiments" loading="lazy">
+            <span>AI</span>
+          </button>
           <div class="project-body">
             <span class="tag">Workflow Tools</span>
             <h3>AI &amp; Workflow Experiments</h3>
             <p>Exploration of AI-assisted planning, content drafts, repeatable workflows, and practical productivity systems.</p>
-            <a href="#contact" aria-label="Request details about AI and Workflow Experiments">View Details</a>
           </div>
         </article>
       </div>
@@ -245,8 +262,8 @@
         <p class="eyebrow">Resume</p>
         <h2 id="resume-title">Want the full professional overview?</h2>
         <p>Download my resume or reach out directly for the latest version, project samples, and availability.</p>
-        <!-- Place your actual resume at assets/Cody-Altman-Resume.pdf or update this href to your resume URL. -->
-        <a class="btn btn-primary" href="assets/Cody-Altman-Resume.pdf" download>Download Resume</a>
+        <!-- Upload your actual resume at assets/resume.pdf or update this href to your resume URL. -->
+        <a class="btn btn-primary" href="assets/resume.pdf" download>Download Resume</a>
       </div>
     </section>
 
@@ -258,17 +275,9 @@
       <div class="contact-layout reveal">
         <div class="contact-card">
           <!-- Update these contact links with your real email, LinkedIn, GitHub, and optional phone. -->
-          <a href="mailto:your.email@example.com"><span>Email</span>your.email@example.com</a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LinkedIn</span>Update LinkedIn URL</a>
+          <a href="mailto:cody.altman.2021@gmail.com"><span>Email</span>cody.altman.2021@gmail.com</a>
+          <a href="https://www.linkedin.com/in/cody-altman/" target="_blank" rel="noreferrer"><span>LinkedIn</span>https://www.linkedin.com/in/cody-altman/</a>
           <a href="https://github.com/inurcrosshair" target="_blank" rel="noreferrer"><span>GitHub</span>github.com/inurcrosshair</a>
-        </div>
-        <div class="form-mockup" aria-label="Contact form mockup">
-          <!-- GitHub Pages does not include a backend. Connect a third-party form service like Formspree, Netlify Forms, or Google Forms if you want this to submit messages. -->
-          <p class="mock-label">Form preview</p>
-          <div>Name</div>
-          <div>Email</div>
-          <div>Message</div>
-          <a class="btn btn-secondary" href="mailto:your.email@example.com">Send Email Instead</a>
         </div>
       </div>
     </section>
@@ -285,6 +294,14 @@
     </div>
     <p class="copyright">© <span id="copyright-year"></span> Cody Altman. All rights reserved.</p>
   </footer>
+
+  <div class="lightbox" id="project-lightbox" aria-hidden="true" role="dialog" aria-label="Project image preview">
+    <button class="lightbox-close" type="button" aria-label="Close project image preview">×</button>
+    <figure>
+      <img src="" alt="">
+      <figcaption></figcaption>
+    </figure>
+  </div>
 
   <script src="script.js"></script>
 </body>
