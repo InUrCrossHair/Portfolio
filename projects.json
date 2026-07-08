@@ -1,5 +1,34 @@
 [
   {
+    "slug": "facebook-omj-2025-analytics-dashboard",
+    "title": "2025 OMJ Facebook Analytics Dashboard",
+    "type": "Social Media Analytics / Excel Dashboard",
+    "source": "Facebook OMJ Page Report.xlsx",
+    "drive": "",
+    "download": "assets/projects/facebook-omj-page-report-2025.xlsx",
+    "preview": "assets/projects/facebook-omj-2025-analytics-dashboard-preview.jpg",
+    "summary": "Built a full-year Excel dashboard/report organizing Pike County OMJ Facebook page metrics, charts, audience data, and top content into a navigable analytics workbook.",
+    "goal": "Make a full calendar year of Facebook page analytics easier to review, navigate, and reference by organizing key numbers, embedded graphs, audience information, and top content breakdowns into a structured Excel report.",
+    "role": [
+      "Built the Excel dashboard/report structure for the full 2025 calendar year.",
+      "Organized Facebook page metrics into clear sections for year totals, top content, and audience breakdowns.",
+      "Used Facebook-provided numbers and graphs to make performance trends easier to navigate and compare.",
+      "Highlighted major metrics such as views, content interactions, follower count, watch time, and top-performing posts."
+    ],
+    "skills": [
+      "Social media performance reporting",
+      "Facebook analytics organization",
+      "Excel dashboard structure",
+      "Data presentation",
+      "Audience breakdown review",
+      "Top-performing content analysis"
+    ],
+    "tools": [
+      "Microsoft Excel",
+      "Facebook page analytics"
+    ]
+  },
+  {
     "slug": "spring-2026-newsletter-the-competitive-edge",
     "title": "Spring 2026 Newsletter \u2014 The Competitive Edge",
     "type": "Newsletter / Publication Design / Program Communications",
