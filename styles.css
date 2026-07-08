@@ -400,9 +400,12 @@ h1 {
   color: var(--amber);
   display: inline-flex;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 0.86rem;
+  font-size: clamp(0.74rem, 1.6vw, 0.86rem);
+  line-height: 1.2;
   margin: 0 0 1rem;
+  max-width: 100%;
   padding: 0.45rem 0.72rem;
+  white-space: nowrap;
 }
 
 .profile-meta h3 {
